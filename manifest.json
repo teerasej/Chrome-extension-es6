@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "List of Tabs",
+  "description": "This extension will create a text list that referred to your current tabs",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
